@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Skripsiku",
+    "slug": "Skripsiku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-apk.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon-depan.png",
+        "backgroundColor": "#6c5ce7"
+      },
+      "package": "com.ardian1802.Skripsiku"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon-apk.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon-apk.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1d7ea52f-994c-42fd-8d4f-dfd8ba30a092"
+      }
+    }
+  }
+}
